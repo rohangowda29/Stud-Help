@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practice</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg">
+  <meta name="theme-color" content="#1f3a5f">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Practice</h1>
+    <select id="lang" aria-label="Language"></select>
+  </header>
+  <main>
+    <p id="status" role="status"></p>
+
+    <section id="picker" hidden>
+      <h2 id="whoTitle"></h2>
+      <div id="children" class="children"></div>
+      <div class="card add">
+        <h3 id="addTitle"></h3>
+        <div class="field"><label for="newName" id="nameLabel"></label><input id="newName" maxlength="30" autocomplete="off"></div>
+        <div class="field"><label for="newGrade" id="gradeLabel"></label><select id="newGrade"></select></div>
+        <button id="addBtn" type="button"></button>
+      </div>
+    </section>
+
+    <section id="practice" hidden>
+      <div class="who"><strong id="childName"></strong><button id="switch" type="button" class="small"></button></div>
+      <div class="card">
+        <p id="prompt"></p>
+        <div id="options"></div>
+        <p id="feedback" role="status"></p>
+        <div class="row">
+          <button id="listen" type="button">Listen</button>
+          <button id="next" type="button" hidden>Next</button>
+        </div>
+      </div>
+      <ul id="mastery"></ul>
+    </section>
+  </main>
+  <footer><a id="teacherLink" href="teacher.html">Teacher view</a></footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Offline learning practice",
+  "short_name": "Practice",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3f6f4",
+  "theme_color": "#1f3a5f",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
