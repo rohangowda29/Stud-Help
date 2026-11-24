@@ -1,0 +1,1433 @@
+{
+  "version": 1,
+  "languages": [
+    "en",
+    "hi",
+    "kn"
+  ],
+  "ui": {
+    "en": {
+      "title": "Practice",
+      "correct": "Correct!",
+      "wrong": "Try again",
+      "next": "Next",
+      "listen": "Listen",
+      "offline": "Offline: progress is saved on this device",
+      "online": "Online",
+      "synced": "Progress synced",
+      "pending": "waiting to sync",
+      "whoAreYou": "Who is practicing?",
+      "addChild": "Add a child",
+      "name": "Name",
+      "grade": "Class",
+      "add": "Add",
+      "switch": "Change child",
+      "teacher": "Teacher view"
+    },
+    "hi": {
+      "title": "अभ्यास",
+      "correct": "सही!",
+      "wrong": "फिर कोशिश करें",
+      "next": "आगे",
+      "listen": "सुनें",
+      "offline": "ऑफ़लाइन: प्रगति इस डिवाइस पर सहेजी जा रही है",
+      "online": "ऑनलाइन",
+      "synced": "प्रगति सिंक हो गई",
+      "pending": "सिंक होना बाकी",
+      "whoAreYou": "कौन अभ्यास कर रहा है?",
+      "addChild": "बच्चा जोड़ें",
+      "name": "नाम",
+      "grade": "कक्षा",
+      "add": "जोड़ें",
+      "switch": "बच्चा बदलें",
+      "teacher": "शिक्षक दृश्य"
+    },
+    "kn": {
+      "title": "ಅಭ್ಯಾಸ",
+      "correct": "ಸರಿ!",
+      "wrong": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+      "next": "ಮುಂದೆ",
+      "listen": "ಕೇಳಿ",
+      "offline": "ಆಫ್‌ಲೈನ್: ಪ್ರಗತಿ ಈ ಸಾಧನದಲ್ಲಿ ಉಳಿಯುತ್ತಿದೆ",
+      "online": "ಆನ್‌ಲೈನ್",
+      "synced": "ಪ್ರಗತಿ ಸಿಂಕ್ ಆಯಿತು",
+      "pending": "ಸಿಂಕ್ ಬಾಕಿ",
+      "whoAreYou": "ಯಾರು ಅಭ್ಯಾಸ ಮಾಡುತ್ತಿದ್ದಾರೆ?",
+      "addChild": "ಮಗುವನ್ನು ಸೇರಿಸಿ",
+      "name": "ಹೆಸರು",
+      "grade": "ತರಗತಿ",
+      "add": "ಸೇರಿಸಿ",
+      "switch": "ಮಗುವನ್ನು ಬದಲಿಸಿ",
+      "teacher": "ಶಿಕ್ಷಕರ ನೋಟ"
+    }
+  },
+  "skills": {
+    "addition": {
+      "en": "Addition",
+      "hi": "जोड़",
+      "kn": "ಕೂಡುವಿಕೆ"
+    },
+    "subtraction": {
+      "en": "Subtraction",
+      "hi": "घटाव",
+      "kn": "ಕಳೆಯುವಿಕೆ"
+    },
+    "multiplication": {
+      "en": "Multiplication",
+      "hi": "गुणा",
+      "kn": "ಗುಣಾಕಾರ"
+    }
+  },
+  "items": [
+    {
+      "id": "add-1-01",
+      "skill": "addition",
+      "level": 1,
+      "answer": 8,
+      "options": [
+        6,
+        8,
+        10,
+        18
+      ],
+      "prompt": {
+        "en": "What is 4 + 4?",
+        "hi": "4 + 4 कितना होता है?",
+        "kn": "4 + 4 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 4 plus 4?"
+      },
+      "audio": {
+        "en": "audio/en/add-1-01.mp3",
+        "hi": "audio/hi/add-1-01.mp3",
+        "kn": "audio/kn/add-1-01-v3.mp3"
+      }
+    },
+    {
+      "id": "add-1-02",
+      "skill": "addition",
+      "level": 1,
+      "answer": 9,
+      "options": [
+        8,
+        9,
+        10,
+        19
+      ],
+      "prompt": {
+        "en": "What is 8 + 1?",
+        "hi": "8 + 1 कितना होता है?",
+        "kn": "8 + 1 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 8 plus 1?"
+      },
+      "audio": {
+        "en": "audio/en/add-1-02.mp3",
+        "hi": "audio/hi/add-1-02.mp3",
+        "kn": "audio/kn/add-1-02-v3.mp3"
+      }
+    },
+    {
+      "id": "add-1-03",
+      "skill": "addition",
+      "level": 1,
+      "answer": 11,
+      "options": [
+        9,
+        11,
+        12,
+        21
+      ],
+      "prompt": {
+        "en": "What is 7 + 4?",
+        "hi": "7 + 4 कितना होता है?",
+        "kn": "7 + 4 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 7 plus 4?"
+      },
+      "audio": {
+        "en": "audio/en/add-1-03.mp3",
+        "hi": "audio/hi/add-1-03.mp3",
+        "kn": "audio/kn/add-1-03-v3.mp3"
+      }
+    },
+    {
+      "id": "add-1-04",
+      "skill": "addition",
+      "level": 1,
+      "answer": 5,
+      "options": [
+        3,
+        4,
+        5,
+        15
+      ],
+      "prompt": {
+        "en": "What is 1 + 4?",
+        "hi": "1 + 4 कितना होता है?",
+        "kn": "1 + 4 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 1 plus 4?"
+      },
+      "audio": {
+        "en": "audio/en/add-1-04.mp3",
+        "hi": "audio/hi/add-1-04.mp3",
+        "kn": "audio/kn/add-1-04-v3.mp3"
+      }
+    },
+    {
+      "id": "add-1-05",
+      "skill": "addition",
+      "level": 1,
+      "answer": 15,
+      "options": [
+        5,
+        13,
+        14,
+        15
+      ],
+      "prompt": {
+        "en": "What is 8 + 7?",
+        "hi": "8 + 7 कितना होता है?",
+        "kn": "8 + 7 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 8 plus 7?"
+      },
+      "audio": {
+        "en": "audio/en/add-1-05.mp3",
+        "hi": "audio/hi/add-1-05.mp3",
+        "kn": "audio/kn/add-1-05-v3.mp3"
+      }
+    },
+    {
+      "id": "add-1-06",
+      "skill": "addition",
+      "level": 1,
+      "answer": 6,
+      "options": [
+        4,
+        6,
+        7,
+        16
+      ],
+      "prompt": {
+        "en": "What is 1 + 5?",
+        "hi": "1 + 5 कितना होता है?",
+        "kn": "1 + 5 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 1 plus 5?"
+      },
+      "audio": {
+        "en": "audio/en/add-1-06.mp3",
+        "hi": "audio/hi/add-1-06.mp3",
+        "kn": "audio/kn/add-1-06-v3.mp3"
+      }
+    },
+    {
+      "id": "add-2-01",
+      "skill": "addition",
+      "level": 2,
+      "answer": 22,
+      "options": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "prompt": {
+        "en": "What is 12 + 10?",
+        "hi": "12 + 10 कितना होता है?",
+        "kn": "12 + 10 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 12 plus 10?"
+      },
+      "audio": {
+        "en": "audio/en/add-2-01.mp3",
+        "hi": "audio/hi/add-2-01.mp3",
+        "kn": "audio/kn/add-2-01-v3.mp3"
+      }
+    },
+    {
+      "id": "add-2-02",
+      "skill": "addition",
+      "level": 2,
+      "answer": 67,
+      "options": [
+        57,
+        65,
+        67,
+        68
+      ],
+      "prompt": {
+        "en": "What is 30 + 37?",
+        "hi": "30 + 37 कितना होता है?",
+        "kn": "30 + 37 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 30 plus 37?"
+      },
+      "audio": {
+        "en": "audio/en/add-2-02.mp3",
+        "hi": "audio/hi/add-2-02.mp3",
+        "kn": "audio/kn/add-2-02-v3.mp3"
+      }
+    },
+    {
+      "id": "add-2-03",
+      "skill": "addition",
+      "level": 2,
+      "answer": 48,
+      "options": [
+        48,
+        49,
+        50,
+        58
+      ],
+      "prompt": {
+        "en": "What is 26 + 22?",
+        "hi": "26 + 22 कितना होता है?",
+        "kn": "26 + 22 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 26 plus 22?"
+      },
+      "audio": {
+        "en": "audio/en/add-2-03.mp3",
+        "hi": "audio/hi/add-2-03.mp3",
+        "kn": "audio/kn/add-2-03-v3.mp3"
+      }
+    },
+    {
+      "id": "add-2-04",
+      "skill": "addition",
+      "level": 2,
+      "answer": 91,
+      "options": [
+        81,
+        89,
+        91,
+        93
+      ],
+      "prompt": {
+        "en": "What is 48 + 43?",
+        "hi": "48 + 43 कितना होता है?",
+        "kn": "48 + 43 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 48 plus 43?"
+      },
+      "audio": {
+        "en": "audio/en/add-2-04.mp3",
+        "hi": "audio/hi/add-2-04.mp3",
+        "kn": "audio/kn/add-2-04-v3.mp3"
+      }
+    },
+    {
+      "id": "add-2-05",
+      "skill": "addition",
+      "level": 2,
+      "answer": 32,
+      "options": [
+        22,
+        32,
+        34,
+        42
+      ],
+      "prompt": {
+        "en": "What is 14 + 18?",
+        "hi": "14 + 18 कितना होता है?",
+        "kn": "14 + 18 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 14 plus 18?"
+      },
+      "audio": {
+        "en": "audio/en/add-2-05.mp3",
+        "hi": "audio/hi/add-2-05.mp3",
+        "kn": "audio/kn/add-2-05.mp3"
+      }
+    },
+    {
+      "id": "add-2-06",
+      "skill": "addition",
+      "level": 2,
+      "answer": 49,
+      "options": [
+        39,
+        47,
+        48,
+        49
+      ],
+      "prompt": {
+        "en": "What is 13 + 36?",
+        "hi": "13 + 36 कितना होता है?",
+        "kn": "13 + 36 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 13 plus 36?"
+      },
+      "audio": {
+        "en": "audio/en/add-2-06.mp3",
+        "hi": "audio/hi/add-2-06.mp3",
+        "kn": "audio/kn/add-2-06.mp3"
+      }
+    },
+    {
+      "id": "add-3-01",
+      "skill": "addition",
+      "level": 3,
+      "answer": 645,
+      "options": [
+        635,
+        645,
+        646,
+        655
+      ],
+      "prompt": {
+        "en": "What is 378 + 267?",
+        "hi": "378 + 267 कितना होता है?",
+        "kn": "378 + 267 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 378 plus 267?"
+      },
+      "audio": {
+        "en": "audio/en/add-3-01.mp3",
+        "hi": "audio/hi/add-3-01.mp3",
+        "kn": "audio/kn/add-3-01.mp3"
+      }
+    },
+    {
+      "id": "add-3-02",
+      "skill": "addition",
+      "level": 3,
+      "answer": 776,
+      "options": [
+        766,
+        776,
+        777,
+        778
+      ],
+      "prompt": {
+        "en": "What is 315 + 461?",
+        "hi": "315 + 461 कितना होता है?",
+        "kn": "315 + 461 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 315 plus 461?"
+      },
+      "audio": {
+        "en": "audio/en/add-3-02.mp3",
+        "hi": "audio/hi/add-3-02.mp3",
+        "kn": "audio/kn/add-3-02.mp3"
+      }
+    },
+    {
+      "id": "add-3-03",
+      "skill": "addition",
+      "level": 3,
+      "answer": 400,
+      "options": [
+        390,
+        398,
+        400,
+        410
+      ],
+      "prompt": {
+        "en": "What is 120 + 280?",
+        "hi": "120 + 280 कितना होता है?",
+        "kn": "120 + 280 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 120 plus 280?"
+      },
+      "audio": {
+        "en": "audio/en/add-3-03.mp3",
+        "hi": "audio/hi/add-3-03.mp3",
+        "kn": "audio/kn/add-3-03.mp3"
+      }
+    },
+    {
+      "id": "add-3-04",
+      "skill": "addition",
+      "level": 3,
+      "answer": 615,
+      "options": [
+        614,
+        615,
+        616,
+        625
+      ],
+      "prompt": {
+        "en": "What is 168 + 447?",
+        "hi": "168 + 447 कितना होता है?",
+        "kn": "168 + 447 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 168 plus 447?"
+      },
+      "audio": {
+        "en": "audio/en/add-3-04.mp3",
+        "hi": "audio/hi/add-3-04.mp3",
+        "kn": "audio/kn/add-3-04.mp3"
+      }
+    },
+    {
+      "id": "add-3-05",
+      "skill": "addition",
+      "level": 3,
+      "answer": 643,
+      "options": [
+        643,
+        644,
+        645,
+        653
+      ],
+      "prompt": {
+        "en": "What is 277 + 366?",
+        "hi": "277 + 366 कितना होता है?",
+        "kn": "277 + 366 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 277 plus 366?"
+      },
+      "audio": {
+        "en": "audio/en/add-3-05.mp3",
+        "hi": "audio/hi/add-3-05.mp3",
+        "kn": "audio/kn/add-3-05.mp3"
+      }
+    },
+    {
+      "id": "add-3-06",
+      "skill": "addition",
+      "level": 3,
+      "answer": 580,
+      "options": [
+        570,
+        578,
+        580,
+        590
+      ],
+      "prompt": {
+        "en": "What is 464 + 116?",
+        "hi": "464 + 116 कितना होता है?",
+        "kn": "464 + 116 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 464 plus 116?"
+      },
+      "audio": {
+        "en": "audio/en/add-3-06.mp3",
+        "hi": "audio/hi/add-3-06.mp3",
+        "kn": "audio/kn/add-3-06.mp3"
+      }
+    },
+    {
+      "id": "sub-1-01",
+      "skill": "subtraction",
+      "level": 1,
+      "answer": 11,
+      "options": [
+        1,
+        11,
+        12,
+        13
+      ],
+      "prompt": {
+        "en": "What is 13 - 2?",
+        "hi": "13 - 2 कितना होता है?",
+        "kn": "13 - 2 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 13 minus 2?"
+      },
+      "audio": {
+        "en": "audio/en/sub-1-01.mp3",
+        "hi": "audio/hi/sub-1-01.mp3",
+        "kn": "audio/kn/sub-1-01.mp3"
+      }
+    },
+    {
+      "id": "sub-1-02",
+      "skill": "subtraction",
+      "level": 1,
+      "answer": 11,
+      "options": [
+        1,
+        11,
+        13,
+        21
+      ],
+      "prompt": {
+        "en": "What is 14 - 3?",
+        "hi": "14 - 3 कितना होता है?",
+        "kn": "14 - 3 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 14 minus 3?"
+      },
+      "audio": {
+        "en": "audio/en/sub-1-02.mp3",
+        "hi": "audio/hi/sub-1-02.mp3",
+        "kn": "audio/kn/sub-1-02.mp3"
+      }
+    },
+    {
+      "id": "sub-1-03",
+      "skill": "subtraction",
+      "level": 1,
+      "answer": 3,
+      "options": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prompt": {
+        "en": "What is 17 - 14?",
+        "hi": "17 - 14 कितना होता है?",
+        "kn": "17 - 14 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 17 minus 14?"
+      },
+      "audio": {
+        "en": "audio/en/sub-1-03.mp3",
+        "hi": "audio/hi/sub-1-03.mp3",
+        "kn": "audio/kn/sub-1-03.mp3"
+      }
+    },
+    {
+      "id": "sub-1-04",
+      "skill": "subtraction",
+      "level": 1,
+      "answer": 6,
+      "options": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "prompt": {
+        "en": "What is 7 - 1?",
+        "hi": "7 - 1 कितना होता है?",
+        "kn": "7 - 1 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 7 minus 1?"
+      },
+      "audio": {
+        "en": "audio/en/sub-1-04.mp3",
+        "hi": "audio/hi/sub-1-04.mp3",
+        "kn": "audio/kn/sub-1-04.mp3"
+      }
+    },
+    {
+      "id": "sub-1-05",
+      "skill": "subtraction",
+      "level": 1,
+      "answer": 1,
+      "options": [
+        1,
+        2,
+        3,
+        11
+      ],
+      "prompt": {
+        "en": "What is 6 - 5?",
+        "hi": "6 - 5 कितना होता है?",
+        "kn": "6 - 5 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 6 minus 5?"
+      },
+      "audio": {
+        "en": "audio/en/sub-1-05.mp3",
+        "hi": "audio/hi/sub-1-05.mp3",
+        "kn": "audio/kn/sub-1-05.mp3"
+      }
+    },
+    {
+      "id": "sub-1-06",
+      "skill": "subtraction",
+      "level": 1,
+      "answer": 12,
+      "options": [
+        11,
+        12,
+        13,
+        22
+      ],
+      "prompt": {
+        "en": "What is 13 - 1?",
+        "hi": "13 - 1 कितना होता है?",
+        "kn": "13 - 1 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 13 minus 1?"
+      },
+      "audio": {
+        "en": "audio/en/sub-1-06.mp3",
+        "hi": "audio/hi/sub-1-06.mp3",
+        "kn": "audio/kn/sub-1-06.mp3"
+      }
+    },
+    {
+      "id": "sub-2-01",
+      "skill": "subtraction",
+      "level": 2,
+      "answer": 66,
+      "options": [
+        56,
+        64,
+        66,
+        76
+      ],
+      "prompt": {
+        "en": "What is 80 - 14?",
+        "hi": "80 - 14 कितना होता है?",
+        "kn": "80 - 14 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 80 minus 14?"
+      },
+      "audio": {
+        "en": "audio/en/sub-2-01.mp3",
+        "hi": "audio/hi/sub-2-01.mp3",
+        "kn": "audio/kn/sub-2-01.mp3"
+      }
+    },
+    {
+      "id": "sub-2-02",
+      "skill": "subtraction",
+      "level": 2,
+      "answer": 45,
+      "options": [
+        43,
+        44,
+        45,
+        47
+      ],
+      "prompt": {
+        "en": "What is 86 - 41?",
+        "hi": "86 - 41 कितना होता है?",
+        "kn": "86 - 41 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 86 minus 41?"
+      },
+      "audio": {
+        "en": "audio/en/sub-2-02.mp3",
+        "hi": "audio/hi/sub-2-02.mp3",
+        "kn": "audio/kn/sub-2-02.mp3"
+      }
+    },
+    {
+      "id": "sub-2-03",
+      "skill": "subtraction",
+      "level": 2,
+      "answer": 34,
+      "options": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "prompt": {
+        "en": "What is 94 - 60?",
+        "hi": "94 - 60 कितना होता है?",
+        "kn": "94 - 60 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 94 minus 60?"
+      },
+      "audio": {
+        "en": "audio/en/sub-2-03.mp3",
+        "hi": "audio/hi/sub-2-03.mp3",
+        "kn": "audio/kn/sub-2-03.mp3"
+      }
+    },
+    {
+      "id": "sub-2-04",
+      "skill": "subtraction",
+      "level": 2,
+      "answer": 13,
+      "options": [
+        3,
+        11,
+        13,
+        23
+      ],
+      "prompt": {
+        "en": "What is 40 - 27?",
+        "hi": "40 - 27 कितना होता है?",
+        "kn": "40 - 27 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 40 minus 27?"
+      },
+      "audio": {
+        "en": "audio/en/sub-2-04.mp3",
+        "hi": "audio/hi/sub-2-04.mp3",
+        "kn": "audio/kn/sub-2-04.mp3"
+      }
+    },
+    {
+      "id": "sub-2-05",
+      "skill": "subtraction",
+      "level": 2,
+      "answer": 24,
+      "options": [
+        22,
+        24,
+        25,
+        34
+      ],
+      "prompt": {
+        "en": "What is 35 - 11?",
+        "hi": "35 - 11 कितना होता है?",
+        "kn": "35 - 11 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 35 minus 11?"
+      },
+      "audio": {
+        "en": "audio/en/sub-2-05.mp3",
+        "hi": "audio/hi/sub-2-05.mp3",
+        "kn": "audio/kn/sub-2-05.mp3"
+      }
+    },
+    {
+      "id": "sub-2-06",
+      "skill": "subtraction",
+      "level": 2,
+      "answer": 56,
+      "options": [
+        54,
+        55,
+        56,
+        58
+      ],
+      "prompt": {
+        "en": "What is 71 - 15?",
+        "hi": "71 - 15 कितना होता है?",
+        "kn": "71 - 15 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 71 minus 15?"
+      },
+      "audio": {
+        "en": "audio/en/sub-2-06.mp3",
+        "hi": "audio/hi/sub-2-06.mp3",
+        "kn": "audio/kn/sub-2-06.mp3"
+      }
+    },
+    {
+      "id": "sub-3-01",
+      "skill": "subtraction",
+      "level": 3,
+      "answer": 63,
+      "options": [
+        61,
+        63,
+        64,
+        73
+      ],
+      "prompt": {
+        "en": "What is 645 - 582?",
+        "hi": "645 - 582 कितना होता है?",
+        "kn": "645 - 582 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 645 minus 582?"
+      },
+      "audio": {
+        "en": "audio/en/sub-3-01.mp3",
+        "hi": "audio/hi/sub-3-01.mp3",
+        "kn": "audio/kn/sub-3-01.mp3"
+      }
+    },
+    {
+      "id": "sub-3-02",
+      "skill": "subtraction",
+      "level": 3,
+      "answer": 38,
+      "options": [
+        28,
+        38,
+        40,
+        48
+      ],
+      "prompt": {
+        "en": "What is 206 - 168?",
+        "hi": "206 - 168 कितना होता है?",
+        "kn": "206 - 168 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 206 minus 168?"
+      },
+      "audio": {
+        "en": "audio/en/sub-3-02.mp3",
+        "hi": "audio/hi/sub-3-02.mp3",
+        "kn": "audio/kn/sub-3-02.mp3"
+      }
+    },
+    {
+      "id": "sub-3-03",
+      "skill": "subtraction",
+      "level": 3,
+      "answer": 95,
+      "options": [
+        85,
+        93,
+        95,
+        105
+      ],
+      "prompt": {
+        "en": "What is 223 - 128?",
+        "hi": "223 - 128 कितना होता है?",
+        "kn": "223 - 128 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 223 minus 128?"
+      },
+      "audio": {
+        "en": "audio/en/sub-3-03.mp3",
+        "hi": "audio/hi/sub-3-03.mp3",
+        "kn": "audio/kn/sub-3-03.mp3"
+      }
+    },
+    {
+      "id": "sub-3-04",
+      "skill": "subtraction",
+      "level": 3,
+      "answer": 530,
+      "options": [
+        520,
+        528,
+        530,
+        532
+      ],
+      "prompt": {
+        "en": "What is 768 - 238?",
+        "hi": "768 - 238 कितना होता है?",
+        "kn": "768 - 238 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 768 minus 238?"
+      },
+      "audio": {
+        "en": "audio/en/sub-3-04.mp3",
+        "hi": "audio/hi/sub-3-04.mp3",
+        "kn": "audio/kn/sub-3-04.mp3"
+      }
+    },
+    {
+      "id": "sub-3-05",
+      "skill": "subtraction",
+      "level": 3,
+      "answer": 239,
+      "options": [
+        229,
+        239,
+        240,
+        241
+      ],
+      "prompt": {
+        "en": "What is 368 - 129?",
+        "hi": "368 - 129 कितना होता है?",
+        "kn": "368 - 129 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 368 minus 129?"
+      },
+      "audio": {
+        "en": "audio/en/sub-3-05.mp3",
+        "hi": "audio/hi/sub-3-05.mp3",
+        "kn": "audio/kn/sub-3-05.mp3"
+      }
+    },
+    {
+      "id": "sub-3-06",
+      "skill": "subtraction",
+      "level": 3,
+      "answer": 530,
+      "options": [
+        528,
+        529,
+        530,
+        531
+      ],
+      "prompt": {
+        "en": "What is 749 - 219?",
+        "hi": "749 - 219 कितना होता है?",
+        "kn": "749 - 219 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 749 minus 219?"
+      },
+      "audio": {
+        "en": "audio/en/sub-3-06.mp3",
+        "hi": "audio/hi/sub-3-06.mp3",
+        "kn": "audio/kn/sub-3-06.mp3"
+      }
+    },
+    {
+      "id": "mul-1-01",
+      "skill": "multiplication",
+      "level": 1,
+      "answer": 8,
+      "options": [
+        6,
+        7,
+        8,
+        18
+      ],
+      "prompt": {
+        "en": "What is 2 × 4?",
+        "hi": "2 × 4 कितना होता है?",
+        "kn": "2 × 4 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 2 times 4?"
+      },
+      "audio": {
+        "en": "audio/en/mul-1-01.mp3",
+        "hi": "audio/hi/mul-1-01.mp3",
+        "kn": "audio/kn/mul-1-01.mp3"
+      }
+    },
+    {
+      "id": "mul-1-02",
+      "skill": "multiplication",
+      "level": 1,
+      "answer": 35,
+      "options": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "prompt": {
+        "en": "What is 5 × 7?",
+        "hi": "5 × 7 कितना होता है?",
+        "kn": "5 × 7 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 5 times 7?"
+      },
+      "audio": {
+        "en": "audio/en/mul-1-02.mp3",
+        "hi": "audio/hi/mul-1-02.mp3",
+        "kn": "audio/kn/mul-1-02.mp3"
+      }
+    },
+    {
+      "id": "mul-1-03",
+      "skill": "multiplication",
+      "level": 1,
+      "answer": 50,
+      "options": [
+        48,
+        50,
+        55,
+        60
+      ],
+      "prompt": {
+        "en": "What is 5 × 10?",
+        "hi": "5 × 10 कितना होता है?",
+        "kn": "5 × 10 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 5 times 10?"
+      },
+      "audio": {
+        "en": "audio/en/mul-1-03.mp3",
+        "hi": "audio/hi/mul-1-03.mp3",
+        "kn": "audio/kn/mul-1-03.mp3"
+      }
+    },
+    {
+      "id": "mul-1-04",
+      "skill": "multiplication",
+      "level": 1,
+      "answer": 25,
+      "options": [
+        15,
+        25,
+        30,
+        35
+      ],
+      "prompt": {
+        "en": "What is 5 × 5?",
+        "hi": "5 × 5 कितना होता है?",
+        "kn": "5 × 5 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 5 times 5?"
+      },
+      "audio": {
+        "en": "audio/en/mul-1-04.mp3",
+        "hi": "audio/hi/mul-1-04.mp3",
+        "kn": "audio/kn/mul-1-04.mp3"
+      }
+    },
+    {
+      "id": "mul-1-05",
+      "skill": "multiplication",
+      "level": 1,
+      "answer": 2,
+      "options": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prompt": {
+        "en": "What is 2 × 1?",
+        "hi": "2 × 1 कितना होता है?",
+        "kn": "2 × 1 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 2 times 1?"
+      },
+      "audio": {
+        "en": "audio/en/mul-1-05.mp3",
+        "hi": "audio/hi/mul-1-05.mp3",
+        "kn": "audio/kn/mul-1-05.mp3"
+      }
+    },
+    {
+      "id": "mul-1-06",
+      "skill": "multiplication",
+      "level": 1,
+      "answer": 50,
+      "options": [
+        40,
+        50,
+        51,
+        52
+      ],
+      "prompt": {
+        "en": "What is 10 × 5?",
+        "hi": "10 × 5 कितना होता है?",
+        "kn": "10 × 5 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 10 times 5?"
+      },
+      "audio": {
+        "en": "audio/en/mul-1-06.mp3",
+        "hi": "audio/hi/mul-1-06.mp3",
+        "kn": "audio/kn/mul-1-06.mp3"
+      }
+    },
+    {
+      "id": "mul-2-01",
+      "skill": "multiplication",
+      "level": 2,
+      "answer": 35,
+      "options": [
+        25,
+        33,
+        35,
+        45
+      ],
+      "prompt": {
+        "en": "What is 7 × 5?",
+        "hi": "7 × 5 कितना होता है?",
+        "kn": "7 × 5 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 7 times 5?"
+      },
+      "audio": {
+        "en": "audio/en/mul-2-01.mp3",
+        "hi": "audio/hi/mul-2-01.mp3",
+        "kn": "audio/kn/mul-2-01.mp3"
+      }
+    },
+    {
+      "id": "mul-2-02",
+      "skill": "multiplication",
+      "level": 2,
+      "answer": 6,
+      "options": [
+        4,
+        6,
+        7,
+        16
+      ],
+      "prompt": {
+        "en": "What is 2 × 3?",
+        "hi": "2 × 3 कितना होता है?",
+        "kn": "2 × 3 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 2 times 3?"
+      },
+      "audio": {
+        "en": "audio/en/mul-2-02.mp3",
+        "hi": "audio/hi/mul-2-02.mp3",
+        "kn": "audio/kn/mul-2-02.mp3"
+      }
+    },
+    {
+      "id": "mul-2-03",
+      "skill": "multiplication",
+      "level": 2,
+      "answer": 12,
+      "options": [
+        12,
+        14,
+        15,
+        22
+      ],
+      "prompt": {
+        "en": "What is 3 × 4?",
+        "hi": "3 × 4 कितना होता है?",
+        "kn": "3 × 4 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 3 times 4?"
+      },
+      "audio": {
+        "en": "audio/en/mul-2-03.mp3",
+        "hi": "audio/hi/mul-2-03.mp3",
+        "kn": "audio/kn/mul-2-03.mp3"
+      }
+    },
+    {
+      "id": "mul-2-04",
+      "skill": "multiplication",
+      "level": 2,
+      "answer": 21,
+      "options": [
+        18,
+        20,
+        21,
+        24
+      ],
+      "prompt": {
+        "en": "What is 3 × 7?",
+        "hi": "3 × 7 कितना होता है?",
+        "kn": "3 × 7 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 3 times 7?"
+      },
+      "audio": {
+        "en": "audio/en/mul-2-04.mp3",
+        "hi": "audio/hi/mul-2-04.mp3",
+        "kn": "audio/kn/mul-2-04.mp3"
+      }
+    },
+    {
+      "id": "mul-2-05",
+      "skill": "multiplication",
+      "level": 2,
+      "answer": 45,
+      "options": [
+        43,
+        45,
+        46,
+        54
+      ],
+      "prompt": {
+        "en": "What is 9 × 5?",
+        "hi": "9 × 5 कितना होता है?",
+        "kn": "9 × 5 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 9 times 5?"
+      },
+      "audio": {
+        "en": "audio/en/mul-2-05.mp3",
+        "hi": "audio/hi/mul-2-05.mp3",
+        "kn": "audio/kn/mul-2-05.mp3"
+      }
+    },
+    {
+      "id": "mul-2-06",
+      "skill": "multiplication",
+      "level": 2,
+      "answer": 18,
+      "options": [
+        8,
+        18,
+        20,
+        28
+      ],
+      "prompt": {
+        "en": "What is 6 × 3?",
+        "hi": "6 × 3 कितना होता है?",
+        "kn": "6 × 3 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 6 times 3?"
+      },
+      "audio": {
+        "en": "audio/en/mul-2-06.mp3",
+        "hi": "audio/hi/mul-2-06.mp3",
+        "kn": "audio/kn/mul-2-06.mp3"
+      }
+    },
+    {
+      "id": "mul-3-01",
+      "skill": "multiplication",
+      "level": 3,
+      "answer": 144,
+      "options": [
+        134,
+        142,
+        143,
+        144
+      ],
+      "prompt": {
+        "en": "What is 16 × 9?",
+        "hi": "16 × 9 कितना होता है?",
+        "kn": "16 × 9 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 16 times 9?"
+      },
+      "audio": {
+        "en": "audio/en/mul-3-01.mp3",
+        "hi": "audio/hi/mul-3-01.mp3",
+        "kn": "audio/kn/mul-3-01.mp3"
+      }
+    },
+    {
+      "id": "mul-3-02",
+      "skill": "multiplication",
+      "level": 3,
+      "answer": 72,
+      "options": [
+        71,
+        72,
+        74,
+        82
+      ],
+      "prompt": {
+        "en": "What is 12 × 6?",
+        "hi": "12 × 6 कितना होता है?",
+        "kn": "12 × 6 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 12 times 6?"
+      },
+      "audio": {
+        "en": "audio/en/mul-3-02.mp3",
+        "hi": "audio/hi/mul-3-02.mp3",
+        "kn": "audio/kn/mul-3-02.mp3"
+      }
+    },
+    {
+      "id": "mul-3-03",
+      "skill": "multiplication",
+      "level": 3,
+      "answer": 64,
+      "options": [
+        48,
+        64,
+        65,
+        80
+      ],
+      "prompt": {
+        "en": "What is 16 × 4?",
+        "hi": "16 × 4 कितना होता है?",
+        "kn": "16 × 4 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 16 times 4?"
+      },
+      "audio": {
+        "en": "audio/en/mul-3-03.mp3",
+        "hi": "audio/hi/mul-3-03.mp3",
+        "kn": "audio/kn/mul-3-03.mp3"
+      }
+    },
+    {
+      "id": "mul-3-04",
+      "skill": "multiplication",
+      "level": 3,
+      "answer": 54,
+      "options": [
+        52,
+        53,
+        54,
+        72
+      ],
+      "prompt": {
+        "en": "What is 18 × 3?",
+        "hi": "18 × 3 कितना होता है?",
+        "kn": "18 × 3 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 18 times 3?"
+      },
+      "audio": {
+        "en": "audio/en/mul-3-04.mp3",
+        "hi": "audio/hi/mul-3-04.mp3",
+        "kn": "audio/kn/mul-3-04.mp3"
+      }
+    },
+    {
+      "id": "mul-3-05",
+      "skill": "multiplication",
+      "level": 3,
+      "answer": 126,
+      "options": [
+        116,
+        125,
+        126,
+        140
+      ],
+      "prompt": {
+        "en": "What is 14 × 9?",
+        "hi": "14 × 9 कितना होता है?",
+        "kn": "14 × 9 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 14 times 9?"
+      },
+      "audio": {
+        "en": "audio/en/mul-3-05.mp3",
+        "hi": "audio/hi/mul-3-05.mp3",
+        "kn": "audio/kn/mul-3-05.mp3"
+      }
+    },
+    {
+      "id": "mul-3-06",
+      "skill": "multiplication",
+      "level": 3,
+      "answer": 39,
+      "options": [
+        26,
+        39,
+        40,
+        52
+      ],
+      "prompt": {
+        "en": "What is 13 × 3?",
+        "hi": "13 × 3 कितना होता है?",
+        "kn": "13 × 3 ಎಷ್ಟು?"
+      },
+      "say": {
+        "en": "What is 13 times 3?"
+      },
+      "audio": {
+        "en": "audio/en/mul-3-06.mp3",
+        "hi": "audio/hi/mul-3-06.mp3",
+        "kn": "audio/kn/mul-3-06.mp3"
+      }
+    }
+  ]
+}

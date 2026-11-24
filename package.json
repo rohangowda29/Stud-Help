@@ -1,0 +1,8 @@
+{
+  "name": "offline-adaptive-learning",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"app/tests/*.test.mjs\""
+  }
+}

@@ -1,0 +1,59 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Sync API for the offline learning app (HTTP API + Lambda + DynamoDB)
+
+Resources:
+  ProgressTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: learnerId
+          AttributeType: S
+        - AttributeName: ts
+          AttributeType: N
+      KeySchema:
+        - AttributeName: learnerId
+          KeyType: HASH
+        - AttributeName: ts
+          KeyType: RANGE
+
+  SyncApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      CorsConfiguration:
+        AllowOrigins:
+          - "*"
+        AllowHeaders:
+          - Content-Type
+        AllowMethods:
+          - POST
+          - OPTIONS
+
+  SyncFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: handler.handler
+      Runtime: python3.12
+      CodeUri: .
+      Timeout: 10
+      MemorySize: 128
+      Environment:
+        Variables:
+          TABLE_NAME: !Ref ProgressTable
+          CONTENT_VERSION: "1"
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ProgressTable
+      Events:
+        Sync:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref SyncApi
+            Path: /sync
+            Method: POST
+
+Outputs:
+  SyncUrl:
+    Description: Paste this into app/config.js as SYNC_URL
+    Value: !Sub "https://${SyncApi}.execute-api.${AWS::Region}.amazonaws.com/sync"
